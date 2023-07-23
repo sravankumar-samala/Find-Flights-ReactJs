@@ -1,0 +1,368 @@
+{
+  "flights": [
+    {
+      "id": "1",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-08-10",
+      "amount": 2000
+    },
+    {
+      "id": "2",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-08-15",
+      "amount": 2200
+    },
+    {
+      "id": "3",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-08-20",
+      "amount": 2500
+    },
+    {
+      "id": "4",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-08-25",
+      "amount": 2700
+    },
+    {
+      "id": "5",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-08-30",
+      "amount": 2900
+    },
+    {
+      "id": "6",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-08-12",
+      "amount": 1800
+    },
+    {
+      "id": "7",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-08-17",
+      "amount": 2100
+    },
+    {
+      "id": "8",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-08-22",
+      "amount": 2400
+    },
+    {
+      "id": "9",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-08-27",
+      "amount": 2600
+    },
+    {
+      "id": "10",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-08-31",
+      "amount": 2800
+    },
+    {
+      "id": "11",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-08-13",
+      "amount": 1900
+    },
+    {
+      "id": "12",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-08-18",
+      "amount": 2300
+    },
+    {
+      "id": "13",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-08-23",
+      "amount": 2600
+    },
+    {
+      "id": "14",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-08-28",
+      "amount": 2800
+    },
+    {
+      "id": "15",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-02",
+      "amount": 3000
+    },
+    {
+      "id": "16",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-08-14",
+      "amount": 1950
+    },
+    {
+      "id": "17",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-08-19",
+      "amount": 2300
+    },
+    {
+      "id": "18",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-08-24",
+      "amount": 2550
+    },
+    {
+      "id": "19",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-08-29",
+      "amount": 2750
+    },
+    {
+      "id": "20",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-03",
+      "amount": 2950
+    },
+    {
+      "id": "21",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-07",
+      "amount": 2800
+    },
+    {
+      "id": "22",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-12",
+      "amount": 3000
+    },
+    {
+      "id": "23",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-17",
+      "amount": 2500
+    },
+    {
+      "id": "24",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-22",
+      "amount": 2700
+    },
+    {
+      "id": "25",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-27",
+      "amount": 2900
+    },
+    {
+      "id": "26",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-08",
+      "amount": 2200
+    },
+    {
+      "id": "27",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-13",
+      "amount": 2400
+    },
+    {
+      "id": "28",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-18",
+      "amount": 2700
+    },
+    {
+      "id": "29",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-23",
+      "amount": 2800
+    },
+    {
+      "id": "30",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-28",
+      "amount": 3000
+    },
+    {
+      "id": "31",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-09",
+      "amount": 2100
+    },
+    {
+      "id": "32",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-14",
+      "amount": 2300
+    },
+    {
+      "id": "33",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-19",
+      "amount": 2500
+    },
+    {
+      "id": "34",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-24",
+      "amount": 2800
+    },
+    {
+      "id": "35",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-29",
+      "amount": 2900
+    },
+    {
+      "id": "36",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-10",
+      "amount": 2400
+    },
+    {
+      "id": "37",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-15",
+      "amount": 2600
+    },
+    {
+      "id": "38",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-20",
+      "amount": 2700
+    },
+    {
+      "id": "39",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-25",
+      "amount": 2900
+    },
+    {
+      "id": "40",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-30",
+      "amount": 3000
+    },
+    {
+      "id": "41",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-07",
+      "amount": 3100
+    },
+    {
+      "id": "42",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-07",
+      "amount": 2900
+    },
+    {
+      "id": "43",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Noida",
+      "date": "2023-09-07",
+      "amount": 2700
+    },
+    {
+      "id": "44",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-08",
+      "amount": 2600
+    },
+    {
+      "id": "45",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-08",
+      "amount": 2400
+    },
+    {
+      "id": "46",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Delhi",
+      "date": "2023-09-08",
+      "amount": 2800
+    },
+    {
+      "id": "47",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-09",
+      "amount": 3000
+    },
+    {
+      "id": "48",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-09",
+      "amount": 2200
+    },
+    {
+      "id": "49",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Mumbai",
+      "date": "2023-09-09",
+      "amount": 2500
+    },
+    {
+      "id": "50",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-10",
+      "amount": 3100
+    },
+    {
+      "id": "51",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-10",
+      "amount": 2800
+    },
+    {
+      "id": "52",
+      "boardingFrom": "Hyderabad",
+      "toDestination": "Pune",
+      "date": "2023-09-10",
+      "amount": 2400
+    }
+  ]
+}

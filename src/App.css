@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+#root {
   min-height: 100vh;
+  background: #5f2c82; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to top, #415157, #283048);
+  background: linear-gradient(to top, #415157, #283048); */
+  background: url("/public/flight-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  padding-left: 0;
+}
+button {
+  outline: none;
+  border: none;
+  padding: 0.5em 1.35em;
+  font-size: 1.15rem;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.app-container {
+  padding-block: 2em;
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  justify-items: center;
+  gap: 2em;
+  /* background-color: grey; */
+}
+.form-container {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: rgba(192, 192, 192, 0.5);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  gap: 1em;
+  border: 0.3px solid rgba(211, 211, 211, 0.685);
+  backdrop-filter: blur(20px);
+}
+.form-container h2 {
+  margin-block: 0 10px;
+  font-weight: 500;
+  color: #014165;
+}
+
+input {
+  padding: 0.5em;
+  background-color: var(--clr-text);
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #002941;
+}
+input[type="text"] {
+  min-width: 30ch;
+}
+
+.inputs-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 0.5em;
+}
+.inputs-container span {
+  font-size: 1.2rem;
+}
+.input-holder {
+  background-color: var(--clr-text);
+  border-radius: 5px;
+  color: var(--clr-text);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5em;
+}
+.location-icon {
+  color: #003452;
+  font-size: 1.25rem;
+}
+.inner-container {
+  display: flex;
+  min-width: 38ch;
+  justify-content: space-between;
+  /* gap: 2em; */
 }
 
-.App-link {
-  color: #61dafb;
+.search-results-container {
+  background-color: rgba(255, 255, 255, 0.26);
+  padding: 1em;
+  border-radius: 16px;
+  border: 0.5px solid rgba(255, 255, 255, 0.37);
+  justify-self: stretch;
+  backdrop-filter: blur(20px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* success view styles  */
+.flights-list-container {
+  color: #003f64;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: #c7c7c7f3;
+  padding: 1em;
+  border-radius: 10px;
+}
+.list-header h2 {
+  margin-block: 0;
+  color: #003452;
+  font-weight: 500;
+}
+.list-header,
+.flights-list-item {
+  display: grid;
+  gap: 0.3em;
+  place-items: center;
+  grid-template-columns: 60px 1fr 1fr 160px 100px;
+}
+.list-header h2:first-child,
+.list-header h2:last-child {
+  color: transparent;
+}
+.flights-list-item {
+  border: 1px solid rgba(0, 51, 122, 0.445);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: background-color 0.25s linear;
+}
+.flights-list-item:hover {
+  background-color: var(--clr-text);
+}
+.flights-list-item p {
+  font-size: 1.2rem;
+  margin-block: 15px;
+}
+
+/* non success styles  */
+.non-success-container {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  height: 100%;
+}
+.non-success-container h2,
+.non-success-container p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+}
+.non-success-container p {
+  font-size: 1.3rem;
+  color: aliceblue;
+}
+.non-success-container h1 {
+  color: #030122;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: clamp(1.7rem, 3vw, 2rem);
+}
+.btn {
+  background-color: #014165;
+  color: var(--clr-text);
+}
+.btn:hover {
+  background-color: #004b77;
+}
+.failure-container {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: rgba(238, 237, 255, 0.5);
+  text-align: center;
+  box-shadow: 2px 3px 10px 5px rgba(41, 41, 41, 0.37);
+}
+.failure-container p {
+  color: rgb(0, 2, 121);
+}
+.note {
+  margin-block: 0;
+  font-size: 0.95rem;
+  color: lightgray;
+}
+.note-title {
+  color: rgb(228, 228, 98);
+}
+.error {
+  color: #c00729;
+  margin: 0;
+}
+.flight {
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  margin-block: 0;
+}
+.book-btn {
+  padding: 0.5em 1.1em;
+  font-size: 1rem;
 }
