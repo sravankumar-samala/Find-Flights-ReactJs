@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/find-flights-assignment/static/css/main.2cebf23b.css",
-    "main.js": "/find-flights-assignment/static/js/main.1a84e662.js",
+    "main.css": "/find-flights-assignment/static/css/main.fd814d80.css",
+    "main.js": "/find-flights-assignment/static/js/main.9715956e.js",
     "static/js/787.0979e1c4.chunk.js": "/find-flights-assignment/static/js/787.0979e1c4.chunk.js",
     "static/media/flight-bg.jpg": "/find-flights-assignment/static/media/flight-bg.54d5889032129d2b98cf.jpg",
     "index.html": "/find-flights-assignment/index.html",
-    "main.2cebf23b.css.map": "/find-flights-assignment/static/css/main.2cebf23b.css.map",
-    "main.1a84e662.js.map": "/find-flights-assignment/static/js/main.1a84e662.js.map",
+    "main.fd814d80.css.map": "/find-flights-assignment/static/css/main.fd814d80.css.map",
+    "main.9715956e.js.map": "/find-flights-assignment/static/js/main.9715956e.js.map",
     "787.0979e1c4.chunk.js.map": "/find-flights-assignment/static/js/787.0979e1c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cebf23b.css",
-    "static/js/main.1a84e662.js"
+    "static/css/main.fd814d80.css",
+    "static/js/main.9715956e.js"
   ]
 }
