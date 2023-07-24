@@ -79,6 +79,7 @@ export default function App() {
   const handleChange = (e, setChanges) => {
     setChanges(e.target.value);
     setErrorMsg(null);
+    setInputError(false)
   };
 
   const handleBlur = (e) => {
