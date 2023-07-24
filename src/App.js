@@ -6,6 +6,7 @@ import { MdLocationOn } from 'react-icons/md'
 import "./App.css";
 
 // sample test data (from data/db.json file)
+// NOTE: the data is mostly from Hyderabad to remaining four cities 
 // try after initializing json server 
 
 // {
@@ -40,6 +41,7 @@ export default function App() {
   const [apiStatus, setApiStatus] = useState("initial");
   const [flightsList, setFlights] = useState([]);
   const [errorMsg, setErrorMsg] = useState(null);
+  const [inputError, setInputError] = useState(false)
 
   // Api function created separately in order to have access to other handlers
   // I used json-server for fetching the dummy data which is in data/db.json file
@@ -79,6 +81,12 @@ export default function App() {
     setErrorMsg(null);
   };
 
+  const handleBlur = (e) => {
+    let value = e.target.value
+    if (!serviceCities.includes(value)) setInputError(true)
+    else setInputError(false)
+  }
+
   return (
     <div className="app-container">
       <h1>Find Your Perfect Flight for the Journey Ahead</h1>
@@ -88,7 +96,7 @@ export default function App() {
       <form className="form-container" onSubmit={onSubmitForm}>
         <h2>Enter your boarding and destination cities</h2>
         <div className="inputs-container">
-          <div className="input-holder">
+          <div className={`input-holder ${inputError ? 'warning' : ''}`}>
             <MdLocationOn className="location-icon" />
             <input
               type="text"
@@ -96,11 +104,12 @@ export default function App() {
               value={boarding}
               onChange={(e) => handleChange(e, setBoarding)}
               autoFocus={apiStatus === "initial"}
+              onBlur={handleBlur}
             />
           </div>
 
           <span>To</span>
-          <div className="input-holder">
+          <div className={`input-holder ${inputError ? 'warning' : ''}`}>
             <MdLocationOn className="location-icon" />
 
             <input
@@ -108,6 +117,7 @@ export default function App() {
               placeholder="Enter your destination location"
               value={destination}
               onChange={(e) => handleChange(e, setDestination)}
+              onBlur={handleBlur}
             />
           </div>
         </div>
